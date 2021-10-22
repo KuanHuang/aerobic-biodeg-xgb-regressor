@@ -1,0 +1,14 @@
+SMILES,Guideline,Principle,Reliability
+CC1(C)OC[C@@H](COC(=O)CCc2ccc(OC[C@@H](O)CNCCNC(=O)N3CCOCC3)cc2)O1,OECD 301B,CO2 evolution,1
+CC1(C)OC[C@@H](COC(=O)CCc2ccc(OC[C@@H](O)CNCCNC(=O)N3CCOCC3)cc2)O1.Cl,OECD 301B,CO2 evolution,1
+CC1(C)OC[C@@H](COS(C)(=O)=O)O1,OECD 301B,CO2 evolution,1
+CC1(C)OC[C@@H](O)[C@H](O)CO1,OECD 301B,CO2 evolution,1
+CC1(C)OC[C@@H]2O[C@@]3(C(=O)O)OC(C)(C)O[C@H]3[C@@H]2O1,OECD 301F,Closed respirometer,1
+CC1(C)OC[C@](C)(CO)O1,OECD 301F,Closed respirometer,1
+CC1(C)OC[C@H]([C@@H]2CC(=O)c3cc(F)ccc3O2)O1,OECD 301F,Closed respirometer,2
+Cc1cc(C)c(C)cc1C,OECD 301D,Closed bottle test,1
+Cc1ccc(C)c(C)c1,OECD 301D,Closed bottle test,1
+Cc1ccc(C)c(C)c1C,OECD 301D,Closed bottle test,1
+Cc1cccc(C)c1C,OECD 301D,Closed bottle test,2
+Fc1c(F)c(F)c(F)c(F)c1F,OECD 301D,Closed bottle test,1
+Fc1cc(F)c(F)c(F)c1F,OECD 301D,Closed bottle test,1

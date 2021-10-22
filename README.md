@@ -24,7 +24,7 @@ Bayesian optimization was performed to tune the model hyperparameters. Chemical 
 ## Explanation of each folder
 <ul>
 <li><b>example-smiles-files:</b> Files containing example SMILES strings that you can directly use for prediction.</li>
-<li><b>jupyter-notebook:</b> An example JupyterNotebook that can guide you through the library import, data preparation, prediction, and result saving.</li>
+<li><b>example:</b> An example JupyterNotebook that can guide you through the library import, data preparation, prediction, and result saving.</li>
 <li><b>model-data:</b> The original data we used for building the model.</li>
 <li><b>models:</b> The model XGBoost model file you can directly use once loaded (model = pickle.load(open(model, 'rb'))).</li>
 </ul>
@@ -66,7 +66,7 @@ pip install pickle-mixin
 ```
 
 ### Download the model file and follow the JupyterNotebook
-You can simply download the model file in the `models` and follow the JupyterNotebook in the `jupyter-notebook` folder to run the models for your predictions. 
+You can simply download the model file in the `models` and follow the JupyterNotebook in the `example` folder to run the models for your predictions. 
 
 
 <img src="/doc/AB_XGB_Regressor_Jupyter.png?raw=true" align="center">

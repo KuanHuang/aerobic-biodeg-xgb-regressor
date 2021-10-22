@@ -66,7 +66,7 @@ pip install pickle-mixin
 ```
 
 ### Download the model file and follow the JupyterNotebook
-You can simply download the model file in the `models` and follow the JupyterNotebook in the `example` folder to run the models for your predictions. 
+You can simply download the model file in the **`models`** folder and follow the JupyterNotebook in the **`example`** folder to run the models for your predictions. 
 
 
 <img src="/doc/AB_XGB_Regressor_Jupyter.png?raw=true" align="center">

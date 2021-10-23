@@ -22,12 +22,12 @@ MACCS fingerprints
 Bayesian optimization was performed to tune the model hyperparameters. Chemical similarity calculation was conducted using the fingerprint similarity based on Tanimoto index to determine the model applicability domain.
 
 ## Explanation of each folder
-<ul>
-<li><b>example-smiles-files:</b> Files containing example SMILES strings that you can directly use for prediction.</li>
-<li><b>example:</b> An example JupyterNotebook that can guide you through the library import, data preparation, prediction, and result saving.</li>
-<li><b>model-data:</b> The original data we used for building the model.</li>
-<li><b>models:</b> The model XGBoost model file you can directly use once loaded (model = pickle.load(open(model, 'rb'))).</li>
-</ul>
+
+- **example-smiles-files:** Files containing example SMILES strings that you can directly use for prediction.
+- **example:** An example JupyterNotebook that can guide you through the library import, data preparation, prediction, and result saving.
+- **model-data:** The original data we used for building the model.
+- **models:** The model XGBoost model file you can directly use once loaded (model = pickle.load(open(model, 'rb'))).
+
 
 ## Use the online predictor on Aropha AI
 Address: https://www.ai.aropha.com/aerobic-biodegradation/regression/about.html
@@ -37,14 +37,14 @@ Address: https://www.ai.aropha.com/aerobic-biodegradation/regression/about.html
 ## Download files to run locally
 In addition to using the online predictor, we also encourage you to try the model files locally with your data to have command-line controls over the prediction.
 ### Dependencies
-<ul>
-<li><b>RDkit:</b> Draw molecules and convert smiles to fingerprints.</li>
-<li><b>Numpy:</b> Create matrices and mathematical operations.</li>
-<li><b>Pandas:</b> Data manipulation.</li>
-<li><b>Scikit-learn:</b> Framework to perform ML models.</li>
-<li><b>XGBoost:</b> Perform a XGBoost model.</li>
-<li><b>Pickle:</b> Load the model files.</li>
-</ul>
+
+- **RDkit:** Draw molecules and convert smiles to fingerprints.
+- **Numpy:** Create matrices and mathematical operations.
+- **Pandas:** Data manipulation.
+- **Scikit-learn:** Framework to perform ML models.
+- **XGBoost:** Perform a XGBoost model.
+- **Pickle:** Load the model files.
+
 
 ### Install the dependencies
 #### RDKit
